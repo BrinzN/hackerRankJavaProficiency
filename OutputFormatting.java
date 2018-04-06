@@ -5,8 +5,6 @@ public class OutputFormatting {
               for(int i=0;i<3;i++){
                   String s1=sc.next();
                   int x=sc.nextInt();
-                  //Complete this line
-                  //System.out.println(s1+" "+x);
                   System.out.printf("%-15s", s1);
                   System.out.printf("%03d%n", x);
               }
